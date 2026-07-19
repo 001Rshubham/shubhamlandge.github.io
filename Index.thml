@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Landge — AI & Data Science Student</title>
+  <meta name="description" content="Portfolio of Shubham Landge, a B.Tech student specializing in AI & Data Science. Machine learning, data analytics, and dashboard projects, skills, and certifications.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shubham Landge — AI & Data Science Student">
+  <meta property="og:description" content="B.Tech student specializing in AI & Data Science. Explore projects in machine learning, data analytics, and visualization.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://shubhamlandge.dev">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== NAV ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SL<span class="dot dot--ai" aria-hidden="true"></span></a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <a href="resume/resume.pdf" class="nav-resume" target="_blank" rel="noopener">Resume</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <canvas id="constellation" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="eyebrow mono">B.TECH · AI &amp; DATA SCIENCE</p>
+        <h1 class="hero-name">Shubham Landge</h1>
+        <p class="hero-role mono" id="typing-role" aria-live="polite">Data Science Student</p>
+        <p class="hero-intro">
+          I build models and dashboards that turn messy data into decisions —
+          currently sharpening my skills in machine learning and analytics
+          while working toward a data science / analyst internship.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="resume/resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+        <div class="hero-legend" aria-hidden="true">
+          <span><i class="dot dot--prog"></i> Programming</span>
+          <span><i class="dot dot--data"></i> Data Analytics</span>
+          <span><i class="dot dot--ai"></i> AI &amp; ML</span>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="section-inner about-grid">
+        <div class="about-photo reveal">
+          <img src="images/profile.jpg" alt="Portrait of Shubham Landge, B.Tech AI & Data Science student" width="360" height="360">
+        </div>
+        <div class="about-copy reveal">
+          <p class="section-eyebrow mono">01 · About</p>
+          <h2 class="section-title">Learning to make data useful, not just accurate.</h2>
+          <p>
+            I'm a B.Tech student specializing in Artificial Intelligence &amp;
+            Data Science. My day-to-day is a mix of cleaning messy datasets,
+            training models, and figuring out how to explain what a model
+            actually found to someone who isn't going to read the notebook.
+          </p>
+          <p>
+            Right now I'm deepening my skills in feature engineering, applied
+            machine learning with Scikit-Learn, and business-facing analytics
+            with SQL and Power BI. I'm aiming for a data science or data
+            analyst internship where I can work on real, messy, production
+            data — not just clean textbook datasets.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <p class="stat-number mono">3+</p>
+              <p class="stat-label">Applied ML &amp; analytics projects</p>
+            </div>
+            <div class="stat">
+              <p class="stat-number mono">12</p>
+              <p class="stat-label">Core tools &amp; libraries</p>
+            </div>
+            <div class="stat">
+              <p class="stat-number mono">3</p>
+              <p class="stat-label">Professional certifications</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="section-inner">
+        <p class="section-eyebrow mono">02 · Skills</p>
+        <h2 class="section-title">What I work with.</h2>
+        <p class="section-subtitle">
+          Grouped by domain — the same three colors follow these skills
+          through my projects and certificates below.
+        </p>
+
+        <div class="skills-grid">
+
+          <div class="skill-card skill-card--prog reveal">
+            <h3><i class="dot dot--prog"></i> Programming</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-row"><span>Python</span><span class="mono">85%</span></div>
+                <div class="skill-bar"><span data-width="85"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>SQL</span><span class="mono">80%</span></div>
+                <div class="skill-bar"><span data-width="80"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>JavaScript</span><span class="mono">65%</span></div>
+                <div class="skill-bar"><span data-width="65"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>HTML / CSS</span><span class="mono">75%</span></div>
+                <div class="skill-bar"><span data-width="75"></span></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card skill-card--data reveal">
+            <h3><i class="dot dot--data"></i> Data Analytics</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-row"><span>Pandas</span><span class="mono">85%</span></div>
+                <div class="skill-bar"><span data-width="85"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>NumPy</span><span class="mono">80%</span></div>
+                <div class="skill-bar"><span data-width="80"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>Power BI</span><span class="mono">75%</span></div>
+                <div class="skill-bar"><span data-width="75"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>Excel</span><span class="mono">80%</span></div>
+                <div class="skill-bar"><span data-width="80"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>Data Visualization</span><span class="mono">78%</span></div>
+                <div class="skill-bar"><span data-width="78"></span></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card skill-card--ai reveal">
+            <h3><i class="dot dot--ai"></i> AI &amp; ML</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-row"><span>Machine Learning</span><span class="mono">75%</span></div>
+                <div class="skill-bar"><span data-width="75"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>Scikit-Learn</span><span class="mono">78%</span></div>
+                <div class="skill-bar"><span data-width="78"></span></div>
+              </li>
+              <li>
+                <div class="skill-row"><span>Feature Engineering</span><span class="mono">72%</span></div>
+                <div class="skill-bar"><span data-width="72"></span></div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <p class="section-eyebrow mono">03 · Projects</p>
+        <h2 class="section-title">Things I've built.</h2>
+        <p class="section-subtitle">A mix of ML modeling and business-facing analytics work.</p>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <img src="images/project1.png" alt="Screenshot of the customer churn prediction dashboard showing model accuracy and top churn-driving features" loading="lazy" width="480" height="270">
+            <div class="project-body">
+              <h3>Customer Churn Prediction</h3>
+              <p>
+                A classification model that flags customers likely to churn
+                using usage and billing history, with feature importance
+                surfaced for the retention team to act on.
+              </p>
+              <p class="project-impact mono">89% accuracy · top 5 churn drivers identified</p>
+              <div class="tag-row">
+                <span class="tag tag--prog">Python</span>
+                <span class="tag tag--data">Pandas</span>
+                <span class="tag tag--ai">Scikit-Learn</span>
+                <span class="tag tag--ai">Feature Engineering</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/shubhamlandge/customer-churn-prediction" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="https://churn-predictor-demo.streamlit.app" target="_blank" rel="noopener">Live Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="images/project2.png" alt="Screenshot of the Power BI sales analytics dashboard with revenue trends and regional breakdown" loading="lazy" width="480" height="270">
+            <div class="project-body">
+              <h3>Sales Analytics Dashboard</h3>
+              <p>
+                An interactive Power BI dashboard built on top of a SQL data
+                model, replacing a manual weekly Excel report for regional
+                sales performance.
+              </p>
+              <p class="project-impact mono">~70% less manual reporting time</p>
+              <div class="tag-row">
+                <span class="tag tag--data">Power BI</span>
+                <span class="tag tag--data">SQL</span>
+                <span class="tag tag--data">Excel</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/shubhamlandge/sales-analytics-dashboard" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="https://app.powerbi.com/view?r=sales-dashboard-demo" target="_blank" rel="noopener">Live Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="images/project3.png" alt="Screenshot of the sentiment analysis notebook showing a confusion matrix and sample classified tweets" loading="lazy" width="480" height="270">
+            <div class="project-body">
+              <h3>Twitter Sentiment Classifier</h3>
+              <p>
+                A text classification pipeline that labels tweets as
+                positive, negative, or neutral, built to compare a few
+                feature-extraction and model combinations.
+              </p>
+              <p class="project-impact mono">91% F1-score on 10k+ labeled tweets</p>
+              <div class="tag-row">
+                <span class="tag tag--prog">Python</span>
+                <span class="tag tag--data">Pandas</span>
+                <span class="tag tag--ai">Scikit-Learn</span>
+                <span class="tag tag--ai">Machine Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/shubhamlandge/twitter-sentiment-classifier" target="_blank" rel="noopener">GitHub ↗</a>
+                <a href="https://twitter-sentiment-demo.streamlit.app" target="_blank" rel="noopener">Live Demo ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATES ===== -->
+    <section class="section section--alt" id="certificates">
+      <div class="section-inner">
+        <p class="section-eyebrow mono">04 · Certificates</p>
+        <h2 class="section-title">Verified learning.</h2>
+
+        <div class="certs-grid">
+
+          <div class="cert-card reveal">
+            <i class="dot dot--data"></i>
+            <h3>Google Data Analytics Professional Certificate</h3>
+            <p class="cert-issuer">Google · Coursera</p>
+            <p class="cert-meta mono">Issued Mar 2025</p>
+          </div>
+
+          <div class="cert-card reveal">
+            <i class="dot dot--ai"></i>
+            <h3>Machine Learning Specialization</h3>
+            <p class="cert-issuer">DeepLearning.AI · Coursera</p>
+            <p class="cert-meta mono">Issued Aug 2025</p>
+          </div>
+
+          <div class="cert-card reveal">
+            <i class="dot dot--data"></i>
+            <h3>Microsoft Power BI Data Analyst Associate</h3>
+            <p class="cert-issuer">Microsoft (PL-300)</p>
+            <p class="cert-meta mono">Issued Jan 2026 · Score: 820/1000</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="section-inner contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow mono">05 · Contact</p>
+          <h2 class="section-title">Let's talk data.</h2>
+          <p class="section-subtitle">
+            Open to data science and analyst internships. The fastest way to
+            reach me is email — I'll usually reply within a day or two.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label mono">Email</span>
+              <a href="mailto:landgeshubham438@gmail.com">landgeshubham438@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label mono">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/001rshubham/" target="_blank" rel="noopener">linkedin.com/in/001rshubham</a>
+            </li>
+            <li>
+              <span class="contact-label mono">GitHub</span>
+              <a href="https://github.com/001Rshubham" target="_blank" rel="noopener">github.com/shubhamlandge</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" autocomplete="name" required>
+            <span class="form-error" id="err-name" role="alert"></span>
+          </div>
+          <div class="form-row">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" autocomplete="email" required>
+            <span class="form-error" id="err-email" role="alert"></span>
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+            <span class="form-error" id="err-message" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-note" id="form-note" aria-live="polite">
+            Opens your email client with this message pre-filled, addressed to shubham.landge@example.com.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Shubham Landge. Built from scratch, no template.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/001Rshubham" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a>
+        <a href="https://www.linkedin.com/in/001rshubham/" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="mailto:landgeshubham438@gmail.com" aria-label="Send an email">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
